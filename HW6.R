@@ -4,12 +4,13 @@
 # 2/12/18 
 # INFO 201 HW 6 
 
+library("knitr")
 library("dplyr")
 
 info <- read.csv('data/intro-survey.csv')
 
 # Summary Statistics Description 
-mean.program.exp <- summarise(info, mean(ï..programming_exp)) 
+mean.program.exp <- summarise(info, mean(?..programming_exp)) 
 from.washington <- count(filter(info, washington_born == "Yes"))
 windows.count <- count(filter(info, os == "Windows"))
 mac.count <- count(filter(info, os == "Mac OS X"))
