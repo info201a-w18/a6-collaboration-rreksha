@@ -10,13 +10,13 @@ library("dplyr")
 info <- read.csv('data/intro-survey.csv')
 
 # Summary Statistics Description 
-mean.program.exp <- summarise(info, mean(?..programming_exp)) 
+mean.program.exp <- round(summarise(info, mean(programming_exp)), digits = 2) 
 from.washington <- count(filter(info, washington_born == "Yes"))
 windows.count <- count(filter(info, os == "Windows"))
 mac.count <- count(filter(info, os == "Mac OS X"))
 coffee.max <- summarise(info, max(coffee_cups))
-seahawks.superfans <- count(filter(info, seahawks_fan == "Yes!!!"))
-percent.info.interest <- ((count(filter(info, info_interest == "Yes"))) / (count(info))) * 100
+seahawks.superfans <- count(filter(info, seahawks_fan == "Yes"))
+percent.info.interest <- round((count(filter(info, info_interest == "Yes"))) / (count(info)), digits = 1) * 100
 
 # Response Statistics Table 
 # First Visualization 

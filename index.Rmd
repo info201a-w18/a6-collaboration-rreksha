@@ -5,3 +5,11 @@ date: "February 14, 2018"
 output: html_document
 ---
 
+## Summary Statistics 
+``` {r echo = FALSE, message = FALSE}
+source("HW6.R")
+
+```
+At the beginning of our INFO 201 this quarter, the class took a survey on topics relating to residence, pet preferences, and their technical experiences thus far. From this survey, we found some interesting data to report. The number of people in our class who reside in Washington state is `r from.washington` people. In our class, the average amount of programming experience is `r mean.program.exp` out of 5 (with 5 being an expert level user.) From this, we determined that about `r percent.info.interest`% of the class was interested in majoring in Informatics.The division between Mac and Windows users in the classroom was also pretty surprising to see. The number of Mac users is `r mac.count` and the number of Windows users is `r windows.count`. Almost an even split amongst the class!
+For some fun non-programming related survey questions, we found that `r seahawks.superfans` people were **superfans** of the Seattle Seahawks football team and the maximum amount of coffee consumed by one person was `r coffee.max` cups!
+  
