@@ -15,7 +15,7 @@ For some fun non-programming related survey questions, we found that `r seahawks
 
 ## Response Statistics Table 
 
-This table shows the number of people who rated each of their expereiences. One being the least amount of experience and five being the most amount of experience. The table includes overall programming, command line, version control, mardown, r and web experiences. 
+This table shows the number of people who rated each of their expereiences. One being the least amount of experience and five being the most amount of experience. The table includes overall programming, command line, version control, mardown, r and web experiences. Most of the students before the class had the most experience in command line and had almost no expert knowledge. 
 
 ```{r, echo = FALSE,message = FALSE, warning = FALSE}
 
