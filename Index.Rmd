@@ -1,0 +1,13 @@
+---
+title: "INFO 201 Survey Responses"
+author: "Anant Rajeev"
+date: "2/12/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summary Statistics Description
+### This section includes data about the mean programming experience, the number of people from Washington, the number of people who use Windows vs. the number of people who use Mac, the maximum number coffee of cups consumed by one person per day, the number of Seahawks superfans, the percentage of people who are interested in Info. 
