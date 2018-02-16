@@ -11,7 +11,7 @@ source("HW6.R")
 ```
 
 
-# Summary Statistics Description
+#### Summary Statistics Description ####
 #### This section includes data about the mean programming experience, the number of people from Washington, the number of people who use Windows vs. the number of people who use Mac, the maximum number coffee of cups consumed by one person per day, the number of Seahawks superfans, the percentage of people who are interested in Info. 
 
 At the beginning of our INFO 201 this quarter, the class took a survey on topics relating to residence, pet preferences, and their technical experiences thus far. From this survey, we found some interesting data to report. The number of people in our class who reside in Washington state is `r from.washington` people. In our class, the average amount of programming experience is `r mean.program.exp` out of 5 (with 5 being an expert level user.) From this, we determined that about `r percent.info.interest`% of the class was interested in majoring in Informatics.The division between Mac and Windows users in the classroom was also pretty surprising to see. The number of Mac users is `r mac.count` and the number of Windows users is `r windows.count`. Almost an even split amongst the class! For some fun non-programming related survey questions, we found that `r seahawks.superfans` people were **superfans** of the Seattle Seahawks football team and the maximum amount of coffee consumed by one person was `r coffee.max` cups!
@@ -25,7 +25,7 @@ source("HW6.R")
 kable(exp.data)
 ```
 
-# First Data Visualization
+#### First Data Visualization ####
 
 This data plot describes how experienced this group of students is in programming interfaces such as R, Command-Line Interface, and Web Programming based on how much overall programming experience a student has. This plot shows that with more programming experience, web programming experience for this particular group decreases, showing that as people become more entrenched in overall programming, web experience becomes less and less of a priority. Furthermore, as a student programs more generally, then they seem to have more experience with R and statistical programming. This shows that students become more interested in learning about how to summarize data in programming once they’ve gained more programming knowledge. This trend also stands true with command line interface. Overall, with more programming experience, there is a higher chance that this group of students will know how to use more branches of programming.
 
@@ -42,7 +42,7 @@ print(first.plot)
 
 ```
 
-# Second Visualization
+#### Second Visualization ####
 
 This data plot describes the relationship between the amount of coffee consumed by students either born in or out of Washington state, that either are or are not Seahawks fans. The data shows that the students who weren’t born in Washington typically aren’t Seahawks fans and the people who were born in Washington were Seahawks fans. The data supported that even though Seattle is famous for coffee, students who were born outside of Washington have the same amount of average coffee consumption as students who were born in Washington.
 
